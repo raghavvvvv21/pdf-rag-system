@@ -1,0 +1,52 @@
+What are transformers in artificial intelligence?
+Transformers are a type of neural network architecture that transforms or changes an input sequence into an output sequence. They do this by learning context and tracking relationships between sequence components. For example, consider this input sequence: "What is the color of the sky?" The transformer model uses an internal mathematical representation that identifies the relevancy and relationship between the words color, sky, and blue. It uses that knowledge to generate the output: "The sky is blue." 
+
+Organizations use transformer models for all types of sequence conversions, from speech recognition to machine translation and protein sequence analysis.
+
+Read about neural networks
+
+Read about artificial intelligence (AI)
+
+Why are transformers important?
+Early deep learning models that focused extensively on natural language processing (NLP) tasks aimed at getting computers to understand and respond to natural human language. They guessed the next word in a sequence based on the previous word.
+
+To understand better, consider the autocomplete feature in your smartphone. It makes suggestions based on the frequency of word pairs that you type. For example, if you frequently type "I am fine," your phone autosuggests fine after you type am.
+
+Early machine learning (ML) models applied similar technology on a broader scale. They mapped the relationship frequency between different word pairs or word groups in their training data set and tried to guess the next word. However, early technology couldn’t retain context beyond a certain input length. For example, an early ML model couldn’t generate a meaningful paragraph because it couldn’t retain context between the first and last sentence in a paragraph. To generate an output such as "I am from Italy. I like horse riding. I speak Italian.", the model needs to remember the connection between Italy and Italian, which early neural networks just couldn’t do.
+
+Transformer models fundamentally changed NLP technologies by enabling models to handle such long-range dependencies in text. The following are more benefits of transformers.
+
+Enable large-scale models
+Transformers process long sequences in their entirety with parallel computation, which significantly decreases both training and processing times. This has enabled the training of very large language models (LLM), such as GPT and BERT, that can learn complex language representations. They have billions of parameters that capture a wide range of human language and knowledge, and they’re pushing research toward more generalizable AI systems.
+
+Read about large language models
+
+Read about GPT
+
+Enable faster customization
+With transformer models, you can use techniques such as transfer learning and retrieval augmented generation (RAG). These techniques enable the customization of existing models for industry organization-specific applications. Models can be pretrained on large datasets and then fine-tuned on smaller, task-specific datasets. This approach has democratized the use of sophisticated models and removed resource constraint limitations in training large models from scratch. Models can perform well across multiple domains and tasks for various use cases.
+
+Facilitate multi-modal AI systems
+With transformers, you can use AI for tasks that combine complex data sets. For instance, models like DALL-E show that transformers can generate images from textual descriptions, combining NLP and computer vision capabilities. With transformers, you can create AI applications that integrate different information types and mimic human understanding and creativity more closely.
+
+Read about computer vision
+
+AI research and industry innovation
+Transformers have created a new generation of AI technologies and AI research, pushing the boundaries of what's possible in ML. Their success has inspired new architectures and applications that solve innovative problems. They have enabled machines to understand and generate human language, resulting in applications that enhance customer experience and create new business opportunities.
+
+What are the use cases for transformers?
+You can train large transformer models on any sequential data like human languages, music compositions, programming languages, and more. The following are some example use cases.
+
+Natural language processing
+Transformers enable machines to understand, interpret, and generate human language in a way that's more accurate than ever before. They can summarize large documents and generate coherent and contextually relevant text for all kinds of use cases. Virtual assistants like Alexa use transformer technology to understand and respond to voice commands.
+
+Machine translation
+Translation applications use transformers to provide real-time, accurate translations between languages. Transformers have significantly improved the fluency and accuracy of translations as compared to previous technologies.
+
+Read about machine translation
+
+DNA sequence analysis
+By treating segments of DNA as a sequence similar to language, transformers can predict the effects of genetic mutations, understand genetic patterns, and help identify regions of DNA that are responsible for certain diseases. This capability is crucial for personalized medicine, where understanding an individual's genetic makeup can lead to more effective treatments.
+
+Protein structure analysis
+Transformer models can process sequential data, which makes them well suited for modeling the long chains of amino acids that fold into complex protein structures. Understanding protein structures is vital for drug discovery and understanding biological processes. You can also use transformers in applications that predict the 3D structure of proteins based on their amino acid sequences.
